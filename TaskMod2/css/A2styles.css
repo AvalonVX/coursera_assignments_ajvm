@@ -78,8 +78,8 @@ p {
     position: absolute;
     width: 100px;
     height: 25px;
-    top: 10px;
-    right: 10px;
+    top: 0px;
+    right: 0px;
     border: 1px solid black;
     font-size: 125%;
     text-align: center;
