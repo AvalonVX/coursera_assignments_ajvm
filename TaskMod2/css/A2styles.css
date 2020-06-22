@@ -32,7 +32,7 @@ p {
         float: left;
         width: 31.33%;
         margin: 1%;
-        border: 2px solid #414858;
+        border: 1px solid #414858;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -47,7 +47,7 @@ p {
         position: relative;
         float: left;
         margin: 1%;
-        border: 2px solid #414858;
+        border: 1px solid #414858;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -68,7 +68,7 @@ p {
         position: relative;
         width: 96%;
         margin: 2%;
-        border: 2px solid #414858;
+        border: 1px solid #414858;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -80,7 +80,7 @@ p {
     height: 25px;
     top: 10px;
     right: 10px;
-    border: 2px solid black;
+    border: 1px solid black;
     font-size: 125%;
     text-align: center;
 }
