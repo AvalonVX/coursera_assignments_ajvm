@@ -55,3 +55,5 @@ Here is the mockup illustration of the tablet version of the site. Your final re
 Here is the mockup illustration of the mobile version of the site. Your final result should look very close to this mockup.
 
  ![mobile](https://raw.githubusercontent.com/jhu-ep-coursera/fullstack-course4/master/assignments/assignment2/images/mobile.png)
+
+![Screenshot_20200622_113650](/home/avalonxcv/Documentos/NotasXCV/.ImagenesAdjuntas/Tarea2_WEBDEV/Screenshot_20200622_113650.png)
