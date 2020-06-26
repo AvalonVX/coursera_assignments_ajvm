@@ -1,0 +1,45 @@
+/* HEADER STYLE */
+
+.navbar-brand h1 {
+  margin-top: 2px;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: bold;
+  color: #16a085;
+}
+
+header #collapsable-menu-button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+#nav-list > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 10px;
+}
+
+@media (max-width: 767px) {
+  #collapsable-nav {
+    background-color: #7180a1;
+  }
+
+  a.nav-menu-item hr {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-top: 1px solid rgb(109, 243, 154);
+  }
+
+  a.nav-menu-item p {
+    color: rgb(110, 255, 158);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+/* BODY STYLE */
+#menu-title {
+  font-size: 1.25em;
+  font-weight: bold;
+}
