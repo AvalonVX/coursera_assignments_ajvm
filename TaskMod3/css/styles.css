@@ -43,3 +43,100 @@ header #collapsable-menu-button {
   font-size: 1.25em;
   font-weight: bold;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  margin-top: 15px;
+  text-transform: uppercase;
+  color: #169085;
+}
+
+p {
+  text-align: justify;
+}
+
+.row-container {
+  position: relative;
+  /*border: 2px solid #131b24;*/
+  overflow: hidden;
+}
+/* NON GRADED STYLES*/
+/* Desktop View */
+
+@media (min-width: 992px) {
+  .col-lg-30p {
+    position: relative;
+    float: left;
+    width: 31.33%;
+    margin: 1%;
+    border: 1px solid #414858;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* Tablet View */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-100p,
+  .col-md-50p {
+    position: relative;
+    float: left;
+    margin: 1%;
+    border: 1px solid #414858;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .col-md-100p {
+    width: 96%;
+  }
+  .col-md-50p {
+    width: 48%;
+  }
+}
+
+/* Mobile View*/
+
+@media (max-width: 767px) {
+  .col-sm-100p {
+    float: left;
+    position: relative;
+    width: 96%;
+    margin: 2%;
+    border: 1px solid #414858;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.section-title {
+  position: absolute;
+  width: 100px;
+  height: 25px;
+  top: 1px;
+  right: 1px;
+  border: 1px solid black;
+  font-size: 125%;
+  text-align: center;
+}
+
+#title-section-1 {
+  background-color: #169085;
+}
+
+#title-section-2 {
+  background-color: #182647;
+  color: white;
+}
+
+#title-section-3 {
+  color: white;
+  background-color: #90164f;
+}
