@@ -1,7 +1,7 @@
 /*Solution for assignment module 4
   Alvaro Javier Vargas Miranda
 */
-(function (window){
+(function (global){
   
   var speakWord = "Hello";
 
@@ -11,7 +11,7 @@
     console.log(speakWord + " " + name);
   };
 
-  window.helloSpeaker = helloSpeaker;
+  global.helloSpeaker = helloSpeaker;
   
 })(window);
 
